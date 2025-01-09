@@ -1,0 +1,20 @@
+{
+	"KPlugin": {
+			"Name": "Untile on Resize",
+			"Description": "Allows resizing snapped windows separately by untiling them when they are resized. Has some strange behavior due to quirks of kwin quick tiling.",
+			"Icon": "preferences-system-windows",
+			
+			"Authors": [
+					{
+							"Name": "xiej2520"
+					}
+			],
+			"Id": "untile",
+			"Version": "1.0",
+			"License": "GPLv3",
+			"Website": "https://github.com/xiej2520/untile_on_resize"
+	},
+	"X-Plasma-API": "javascript",
+	"X-Plasma-MainScript": "code/main.js",
+	"KPackageStructure": "KWin/Script"
+}
