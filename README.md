@@ -1,12 +1,14 @@
 # Untile on Resize
 
+I hate tiling windows
+
 Allows resizing snapped windows by untiling them when they are resized in Plasma 6 kwin.
 Has some strange behavior due to quirks of kwin quick tiling:
 
 ## Install
 
 ```sh
-kpackagetool6 --type=KWin/Script -i  untile
+kpackagetool6 --type=KWin/Script -i untile_on_resize
 ```
 
 Then go to Settings -> Window Management -> Kwin scripts -> checkbox
